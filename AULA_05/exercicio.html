@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>	
+	
+		<meta charset="utf-8">
+		<title>Formulario</title>
+		
+	<head>
+	
+	<body>
+	
+		<form action ="#" method="POST" >
+		
+			<label for="codigo">codigo</label>
+			<input type="number" id="codigo" name="codigo"  max="100"  placeholder="0" disabled>
+			<br><br>
+			
+			<label for="telefone">Número de contato </label>
+			<input type="tel" id="telefone" name="telefone"required>
+			<br><br>
+			
+			<label for="numero">Nº da loja </label>
+			<input type="number" id="n" name="n">
+			<br><br>
+			
+			<label for="decricao">Descrição </label><br>
+			<textarea id="texto" name="texto" placeholder="Texto..."></textarea>
+			<br>
+			
+			<label for="data">Data: </label><br>
+			<input type="date" id="data" name="data"required>
+			<br><br>
+			
+			<label for="operadora">Operadora </label><br>
+			<select name="operadora" id="operadora" required>
+				
+				<option value="">Selecione...</option>
+				<option value="ㅤOperadora">.</option>
+				<option value="Operadora">.</option>
+				<option value="Operadora">.</option>
+
+			</select>
+			<br><br>
+			
+			<label for="final">Final </label><br>
+			<select name="final" id="final" required>
+				
+				<option value="">Selecione...</option>
+				<option value="final">.</option>
+				<option value="final">.</option>
+				<option value="final">.</option>
+
+			</select>
+			<br><br>
+			
+			<label for="empresa">Empresa Matrix </label><br>
+			<select name="empresa" id="empresa" required>
+				
+				<option value="">Selecione...</option>
+				<option value="empresa">.</option>
+				<option value="empresa">.</option>
+				<option value="empresa">.</option>
+
+			</select>
+			<br><br>
+			
+			<label for="OCC">Origem das contas contabeis </label><br>
+			<select name="OCC" id="OCC" required>
+				
+				<option value="">Contrato</option>
+				<option value="OCC">.</option>
+				<option value="OCC">.</option>
+				<option value="OCC">.</option>
+
+			</select>
+			<br><br>
+			
+			<label for="SC">Status do contato </label><br>
+			<select name="SC" id="SC" required>
+				
+				<option value="">Ativo</option>
+				<option value="SC">.</option>
+				<option value="SC">.</option>
+				<option value="SC">.</option>
+
+			</select>
+			<br><br>
+			
+			<label for="OCC">Identificar Comprovante por </label><br>
+			<select name="OCC" id="OCC" required>
+				
+				<option value="">Número da Autorizacão</option>
+				<option value="OCC">.</option>
+				<option value="OCC">.</option>
+				<option value="OCC">.</option>
+
+			</select>
+			<br><br>
+			
+			<input type="checkbox" id="" name="">Depósito na conta informada no arquivo<br>
+			<input type="checkbox" id="" name="">Conciliacão Consolidada Permitir conciliar manualmente quando há variação de até<br>
+			<input type="checkbox" id="" name="">Removerzeros esquerda do N° Comprovante<br>
+			<input type="checkbox" id="" name="">Usar campo de usuario [Data da Transacao do Cartao] do Contas a Receber para identificar o comprovante<br>
+			<input type="checkbox" id="" name="">Gerar Contas a Receber por Conta para comprovantes nao identificados<br>
+			<input type="checkbox" id="" name="">Usar Projeto do Cadastro de Equipamento<br>
+			<input type="checkbox" id="" name="">Validar valores na conciliação automática<br>
+			<input type="checkbox" id="" name="">LCM Agrupado de Comprovante de Cartão<br><br>
+			
+			<label for="Cartão">Cartão</label>
+			<input type="number" id="Cartão" name="Cartão" placeholder="Não Informado" disabled>
+			<br><br>
+			
+			<label for="codigo">Forma de Pagamento</label>
+			<input type="number" id="codigo" name="codigo" placeholder="Não Informado" disabled>
+			<br><br>
+			
+			<hr>
+			
+			<table>
+			
+				<tr>
+				
+					<th>Contabilizacao</th>
+				
+				</tr>
+				
+
+				<tr>
+				
+					<td><label for="provisao">Conta de Provisao :➡️</label></td>
+					<td><input type="text" id="provisao" name="provisao"></td>
+					<td><input type="text" id="provisao1" name="provisao1"></td>
+				
+				</tr>
+
+
+				<tr>
+				
+					<td><label for="banco">Conta do Banco :➡️</label></td>
+					<td><input type="text" id="banco" name="banco"></td>
+					<td><input type="text" id="banco1" name="banco1"></td>
+				
+				</tr>
+				
+				
+				<tr>
+
+					<td><label for="comissao">Conta para Comissao :➡️</label></td>
+					<td><input type="text" id="comissao" name="comissao"></td>
+					<td><input type="text" id="comissao1" name="comissao1"></td>
+				
+				</tr>
+				
+				
+				<tr>
+
+					<td><label for="cancelamento">Conta para Cancelamento :➡️</label></td>
+					<td><input type="text" id="cancelamento" name="cancelamento"></td>
+					<td><input type="text" id="cancelamento1" name="cancelamento1"></td>
+				
+				</tr>
+				
+
+				<tr>
+				
+					<td><label for="antecipacao">Conta de Antecipação :➡️</label></td>
+					<td><input type="text" id="antecipacao" name="antecipacao"></td>
+					<td><input type="text" id="antecipacao1" name="antecipacao1"></td>
+				
+				</tr>
+				
+
+				<tr>
+
+					<td><label for="ajusteDebito">Conta de Ajuste a Debito :➡️</label></td>
+					<td><input type="text" id="ajusteDebito" name="ajusteDebito"></td>
+					<td><input type="text" id="ajusteDebito1" name="ajusteDebito1"></td>
+				
+				</tr>
+				
+
+				<tr>
+				
+					<td><label for="ajusteCredito">Conta de Ajuste a Credito :➡️</label></td>
+					<td><input type="text" id="ajusteCredito" name="ajusteCredito"></td>
+					<td><input type="text" id="ajusteCredito1" name="ajusteCredito1"></td>
+				
+				</tr>
+				
+
+				<tr>
+
+					<td><label for="despesas">Conta de Despesas de Aluguel :➡️</label></td>
+					<td><input type="text" id="despesas" name="despesas"></td>
+					<td><input type="text" id="despesas1" name="despesas1"></td>
+				
+				</tr>
+				
+
+				<tr>
+				
+					<td><label for="compensacao">Conta de Compensagao :➡️</label></td>
+					<td><input type="text" id="compensacao" name="compensacao"></td>
+					<td><input type="text" id="compensacao1" name="compensacao1"></td>
+				
+				</tr>
+				
+			</table>
+			<hr>
+			<br><br>
+			
+			<input style="background-color: #F4D677" type="submit" value="ㅤInserirㅤ">
+			<input style="background-color: #F4D677" type="reset" value="ㅤCancelarㅤ">
+			<input style="background-color: #F4D677" type="button" value="ㅤLogㅤ">
+
+		</form>
+			
+	</body>
+	
+</html>
+	
