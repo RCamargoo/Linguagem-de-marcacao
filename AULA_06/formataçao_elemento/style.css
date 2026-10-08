@@ -1,0 +1,63 @@
+*{
+
+    margin: 0; /*espaço externo*/
+    padding: 0; /*espaço interno*/
+    font-family: Arial;
+
+}
+main{
+
+    /*colocar uma borda*/
+    border: 1px solid gray;
+    /*isso aredonda a borda */
+    border-radius: 15px;
+    /*espaço interno - entre o elemento e a borda */
+    margin: 10px;
+    /*espaço interno - entre o elemento e a borda */
+    padding: 8px;
+}
+h1{
+        /*espaço interno - entre o elemento e a borda */
+        padding: 8px;
+        text-align: center;
+        color: #4caf50;
+        text-transform: uppercase;
+
+}
+
+#texto{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+.primeiro{
+    color: #7f00ff;
+    /*mudar a cor do lick ao passa o mouse*/
+    
+}
+.primeiro:hover{
+        color: #ffcc00;
+}
+
+#texto:hover{
+    font-size: 2px;
+}
+.segundo:hover{
+    font-size: 150%;
+}
+.terceiro:hover{
+    background-color: #fc8eac;
+}
+.quarto:hover{
+    font-family: monospace;
+}
+.quinto:hover{
+    text-decoration: none;
+}
+img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
